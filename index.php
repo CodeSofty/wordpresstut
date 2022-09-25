@@ -28,7 +28,9 @@
             </div>
 
         </div>
-    <?php } ?>
+    <?php } 
+    echo paginate_links();    
+?>
 
 </div>
 
