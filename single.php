@@ -1,7 +1,7 @@
 <?php 
 
 get_header();
-
+// Individual blog post template
 while(have_posts()){
     the_post(); // Keeps track of posts in loop ?>
     <div class="page-banner">

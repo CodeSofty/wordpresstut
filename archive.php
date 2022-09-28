@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-
+<!-- Blog archive (Year, Month, Day) -->
     <div class="page-banner">
         <div class="page-banner__bg-image" style="background-image: url(<?php echo get_theme_file_uri('/images/ocean.jpg');?>)"></div>
         <div class="page-banner__content container container--narrow">
