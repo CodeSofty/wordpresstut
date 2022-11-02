@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html <?php language_attributes();?>>
-    <header>
+    <head>
         <meta charset="<?php bloginfo('charset');?>">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <?php wp_head(); //WP in control of whatever goes into head (like CSS/Scripts)?>
-    </header>
+    </head>
     <body <?php body_class();?>>
     <header class="site-header">
         <div class="container">
